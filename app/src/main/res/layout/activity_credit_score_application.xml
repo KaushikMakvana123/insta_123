@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFBF9B"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="643dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        tools:ignore="UseCompoundDrawables">
+
+        <ImageView
+            android:layout_width="@dimen/_20sdp"
+            android:layout_height="@dimen/_39sdp"
+            android:layout_marginLeft="@dimen/_130sdp"
+            android:src="@drawable/setting" />
+
+
+        <ImageView
+            android:layout_width="298dp"
+            android:layout_height="270dp"
+
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:contentDescription="TODO"
+            android:src="@drawable/creditscore" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:paddingBottom="@dimen/_20sdp"
+            android:text="CHECK SCORE CREDIT"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_1sdp"
+            android:layout_marginRight="@dimen/_65sdp"
+            android:paddingBottom="@dimen/_20sdp"
+            android:text="View Your Credit Score"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_15sdp"
+            android:textStyle="normal"
+            android:typeface="normal" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/_2sdp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="@dimen/_140sdp"
+                android:id="@+id/btnOnline"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_marginLeft="@dimen/_1sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@drawable/btnbg"
+                android:text="Check Online"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_20sdp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="@dimen/_140sdp"
+                android:id="@+id/btnOffline"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_marginLeft="@dimen/_1sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@drawable/btnbg"
+                android:text="Check Offline"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_20sdp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginLeft="@dimen/_2sdp">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="@dimen/_140sdp"
+                android:id="@+id/btnCalculator"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_marginLeft="@dimen/_1sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@drawable/btnbg"
+                android:text="Calucator"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_20sdp" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:layout_width="@dimen/_140sdp"
+                android:id="@+id/btnBank"
+                android:layout_height="@dimen/_70sdp"
+                android:layout_marginLeft="@dimen/_1sdp"
+                android:layout_marginRight="@dimen/_8sdp"
+                android:background="@drawable/btnbg"
+                android:text="BankBalance"
+                android:textAllCaps="false"
+                android:textSize="@dimen/_20sdp" />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="351dp"
+        android:id="@+id/btnCredit"
+        android:layout_height="@dimen/_50sdp"
+        android:layout_marginLeft="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_6sdp"
+        android:layout_marginRight="@dimen/_25sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:background="@drawable/btnbg"
+        android:text="Credit Tips"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_18sdp" />
+
+    </LinearLayout>

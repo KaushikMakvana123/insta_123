@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    android:scrollbars="none"
+    tools:context=".Button">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <!--    blank space-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+            <HorizontalScrollView
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                tools:ignore="SpeakableTextPresentCheck">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_weight="1"
+                        android:contentDescription="TODO"
+                        android:padding="10dp"
+                        android:scaleType="center"
+                        android:src="@drawable/bt1"
+                        tools:ignore="Suspicious0dp" />
+
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight="1"
+                        android:contentDescription="TODO"
+                        android:padding="10dp"
+                        android:scaleType="center"
+                        android:src="@drawable/bt2"
+                        tools:ignore="Suspicious0dp" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        android:scaleType="center"
+                        android:src="@drawable/bt3"
+                        tools:ignore="Suspicious0dp"
+                        android:contentDescription="TODO" />
+
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="1dp"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        android:scaleType="center"
+                        android:src="@drawable/bt4"
+                        tools:ignore="Suspicious0dp"
+                        android:contentDescription="TODO" />
+                    <ImageView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="3dp"
+                        android:layout_weight="1"
+                        android:padding="10dp"
+                        android:scaleType="center"
+                        android:src="@drawable/bt5"
+                        tools:ignore="Suspicious0dp"
+                        android:contentDescription="TODO" />
+                </LinearLayout>
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+
+        <!--        all Buttons-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="5">
+
+            <!--            button1-->
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:scaleType="center"
+                android:src="@drawable/img1"
+                tools:ignore="Suspicious0dp"
+                android:contentDescription="TODO" />
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:scaleType="center"
+                android:src="@drawable/imj2"
+                tools:ignore="Suspicious0dp"
+                android:contentDescription="TODO" />
+
+
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:scaleType="center"
+                android:src="@drawable/img3"
+                tools:ignore="Suspicious0dp"
+                android:contentDescription="TODO" />
+
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:scaleType="center"
+                android:src="@drawable/img4"
+                tools:ignore="Suspicious0dp"
+                android:contentDescription="TODO" />
+
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:scaleType="center"
+                android:src="@drawable/img5"
+                tools:ignore="Suspicious0dp"
+                android:contentDescription="TODO" />
+
+
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

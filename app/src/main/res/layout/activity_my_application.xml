@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:orientation="vertical" >
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:hint="Name"
+        android:textStyle="bold"
+        android:ems="10"
+        android:inputType="text"
+        android:selectAllOnFocus="true" />
+    <EditText
+        android:id="@+id/edtLastName"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:hint="Last Name"
+        android:ems="10"
+        android:inputType="text"
+        android:selectAllOnFocus="true" />
+    <EditText
+        android:id="@+id/edtphoneNo"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:hint="Phone Number"
+        android:ems="10"
+        android:inputType="number"
+        android:selectAllOnFocus="true" />
+    <EditText
+        android:id="@+id/edtAddress"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:hint="Address"
+        android:ems="10"
+        android:inputType="text"
+        android:selectAllOnFocus="true" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:hint="Email"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+    <EditText
+        android:id="@+id/edtBusiness"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Business"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/edtLng"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:layout_marginTop="5dp"
+        android:ems="10"
+        android:hint="Language"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/edtRefrence"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:ems="10"
+        android:layout_marginTop="5dp"
+        android:hint="Refrence"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/edtEducation"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:ems="10"
+        android:layout_marginTop="5dp"
+        android:hint="Education"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/edtSkill"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textStyle="bold"
+        android:ems="10"
+        android:layout_marginTop="5dp"
+        android:hint="Skills"
+        android:inputType="text" />
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:text="submit"
+        android:textSize="16sp"
+        android:textStyle="normal|bold" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/resultView"
+        android:layout_marginTop="25dp"
+        android:textSize="15dp"/>
+</LinearLayout>
